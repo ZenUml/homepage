@@ -846,7 +846,7 @@ select::-ms-expand {
   position: fixed;
   z-index: 100;
   width: 100%;
-  background-color: #6C63FF;
+  background-color: #333C44;
   transition: 0.7s;
 }
 .navbar--nofixed {
@@ -929,7 +929,7 @@ select::-ms-expand {
 
 /*--- Extended and transparent version ---*/
 .navbar--extended {
-  background: linear-gradient(to right, #40C4FF, #6C63FF);
+  background: #333C44
 }
 .navbar--extended .navbar__inner {
   height: 60px;
@@ -1025,11 +1025,11 @@ select::-ms-expand {
 }
 
 .hero__overlay--gradient {
-  background: linear-gradient(to right, #40C4FF, #6C63FF);
+  background: #333C44;
 }
 
 .hero__overlay--gradientVertical {
-  background: linear-gradient(to bottom, #, #40C4FF);
+  background: #333C44;
 }
 
 .hero__mask {
