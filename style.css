@@ -649,7 +649,6 @@ select {
   outline: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url('data:image/svg+xml;utf8,<svg aria-hidden="true" data-prefix="fas" data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10 fa-3x"><path fill="currentColor" d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z" class=""></path></svg>');
   background-repeat: no-repeat;
   background-position: 95% center;
   background-size: 0.8em;
@@ -846,7 +845,7 @@ select::-ms-expand {
   position: fixed;
   z-index: 100;
   width: 100%;
-  background-color: #333C44;
+  background-color:  rgba(124, 146, 169, 0.5);
   transition: 0.7s;
 }
 .navbar--nofixed {
@@ -929,7 +928,7 @@ select::-ms-expand {
 
 /*--- Extended and transparent version ---*/
 .navbar--extended {
-  background: #333C44
+  background: rgb(52, 61, 70)
 }
 .navbar--extended .navbar__inner {
   height: 60px;
@@ -1006,6 +1005,7 @@ select::-ms-expand {
   width: 100%;
   box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
   background-size: cover;
+  background-image: url("./imgs/black-and-white-books-connection-251225.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -1021,7 +1021,7 @@ select::-ms-expand {
   width: 100%;
   opacity: 0.96;
   z-index: 1;
-  background-color: #6C63FF;
+  background-color:  rgba(124, 146, 169, 0.5);
 }
 
 .hero__overlay--gradient {
