@@ -1157,7 +1157,8 @@ select::-ms-expand {
 }
 
 .step__image {
-  max-height: 150px;
+  max-height: 100px;
+  width: 50px;
   margin-top: 8pt;
   -webkit-user-drag: none;
   -khtml-user-drag: none;
@@ -1165,6 +1166,12 @@ select::-ms-expand {
   -o-user-drag: none;
   user-drag: none;
 }
+
+.step__image.big{
+  max-height: 150px;
+  width: auto;
+}
+
 @media (min-width: 600px) {
   .step__image {
     max-width: none;
