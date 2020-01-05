@@ -1157,8 +1157,7 @@ select::-ms-expand {
 }
 
 .step__image {
-  max-height: 100px;
-  width: 50px;
+  max-height: 150px;
   margin-top: 8pt;
   -webkit-user-drag: none;
   -khtml-user-drag: none;
