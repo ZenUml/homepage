@@ -1168,7 +1168,7 @@ select::-ms-expand {
 }
 
 .step__image.big{
-  max-height: 150px;
+  max-height: 200px;
   width: auto;
 }
 
